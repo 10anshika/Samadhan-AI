@@ -18,12 +18,7 @@ A polished React + TypeScript frontend that accepts form images and uses Google 
 
 ## Live preview
 
-<p align="center">
-  <img src="./assets/screenshot.png" alt="Samadhan-AI UI" width="80%" />
-</p>
-
-<p align="center"><i>Upload → AI Analysis → Structured Output</i></p>
-
+<p align="center"> <table> <tr> <td align="center" width="50%"> <img src="https://via.placeholder.com/500x300/1E293B/FFFFFF?text=Upload+View" width="100%" style="border-radius: 16px;" /> <br/> <sub>📤 Drag & drop upload</sub> </td> <td align="center" width="50%"> <img src="https://via.placeholder.com/500x300/0F172A/FFFFFF?text=Analysis+Result" width="100%" style="border-radius: 16px;" /> <br/> <sub>📊 Structured output</sub> </td> </tr> </table> </p><p align="center"> <img src="https://via.placeholder.com/800x2/334155?text=+" width="80%" /> </p><p align="center"> <i>✨ Two modes: Human-readable guidance or machine-usable JSON with confidence scores</i> </p>
 ---
 
 ## Who built this
@@ -31,10 +26,12 @@ A polished React + TypeScript frontend that accepts form images and uses Google 
 **Tanmay Kunjir** • **Anshika Mishra**
 
 This repository demonstrates full‑stack integration of computer‑vision input and an LLM (Gemini) for practical form assistance: usable by product teams and demonstrative for technical recruiters.
-
+<p align="center"> <table> <tr> <td align="center" width="50%"> <img src="https://via.placeholder.com/150/3B82F6/FFFFFF?text=👨‍💻" width="120" style="border-radius: 60px;" /> <br/> <h3>Tanmay Kunjir</h3> </td> <td align="center" width="50%"> <img src="https://via.placeholder.com/150/8B5CF6/FFFFFF?text=👩‍💻" width="120" style="border-radius: 60px;" /> <br/> <h3>Anshika Mishra</h3> <a href="https://github.com/10anshika">@10anshika</a> </td> </tr> </table> </p>
 ---
 
 ## Table of contents
+
+<p align="center"> <a href="#-features">✨ Features</a> • <a href="#-tech-stack">🛠️ Tech Stack</a> • <a href="#-quick-start">⚡ Quick Start</a> • <a href="#-architecture">🏗️ Architecture</a> • <a href="#-gemini-integration">🤖 Gemini Integration</a> • <a href="#-testing--ci">🧪 Testing & CI</a> • <a href="#-security--privacy">🔒 Security</a> • <a href="#-contributing">🤝 Contributing</a> </p>
 
 * [Why this project matters](#why-this-project-matters)
 * [Features](#features)
@@ -53,7 +50,7 @@ This repository demonstrates full‑stack integration of computer‑vision input
 * Connects image input to a generative model to produce **structured, validated outputs** suitable for downstream automation (data entry, audit, corrections).
 * Shows production concerns: secret management, runtime schema validation, retries/backoff, file validation/compression, CI and tests.
 * Clear technical ownership and design choices that recruiters look for: data flow, failure modes, and developer experience.
-
+<table> <tr> <td width="33%" align="center"> <img src="https://via.placeholder.com/80/3B82F6/FFFFFF?text=1" width="50" style="border-radius: 40px;" /> <br/> <b>Real-World AI Integration</b> <p>Connects image input to a generative model producing structured, validated outputs for downstream automation (data entry, audit, corrections).</p> </td> <td width="33%" align="center"> <img src="https://via.placeholder.com/80/10B981/FFFFFF?text=2" width="50" style="border-radius: 40px;" /> <br/> <b>Production Concerns</b> <p>Shows secret management, runtime schema validation, retries/backoff, file validation, CI/CD, and testable architecture.</p> </td> <td width="33%" align="center"> <img src="https://via.placeholder.com/80/8B5CF6/FFFFFF?text=3" width="50" style="border-radius: 40px;" /> <br/> <b>Recruiter-Ready</b> <p>Clear technical ownership, data flow, failure modes, and developer experience — everything you look for in a portfolio project.</p> </td> </tr> </table>
 ---
 
 ## Features
@@ -70,7 +67,7 @@ This repository demonstrates full‑stack integration of computer‑vision input
 ---
 
 ## Tech stack
-
+<p align="center"> <table> <tr> <th align="right">Layer</th> <th align="left">Technology</th> <th align="left">Why</th> </tr> <tr> <td align="right">🎨 Frontend</td> <td><b>React + TypeScript + Vite</b></td> <td>Type safety, fast HMR, optimized builds</td> </tr> <tr> <td align="right">🧠 AI / LLM</td> <td><b>Google Gemini</b> <code>(@google/genai)</code></td> <td>State-of-the-art vision + language</td> </tr> <tr> <td align="right">🔍 Validation</td> <td><b>zod</b></td> <td>Runtime schema validation</td> </tr> <tr> <td align="right">🧪 Testing</td> <td><b>Jest + React Testing Library</b></td> <td>Unit & integration tests</td> </tr> <tr> <td align="right">⚙️ CI</td> <td><b>GitHub Actions</b></td> <td>Automated builds & tests</td> </tr> </table> </p><p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" /> <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" /> </p>
 <p align="center">
 
 | Layer      | Technology                      |
