@@ -1,21 +1,4 @@
-<h1 align="center">Samadhan-AI</h1>
-
-<p align="center">
-  <b>AI-powered form understanding, guidance & validation from images</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AI-Gemini%20LLM-4285F4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
-</p>
-
-<hr/>
+<p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="status"/> <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?style=for-the-badge" alt="react+ts"/> <img src="https://img.shields.io/badge/AI-Gemini%20LLM-4285F4?style=for-the-badge" alt="gemini"/> <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge" alt="vite"/> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="license"/> </p>
 
 
 # Samadhan‑AI
