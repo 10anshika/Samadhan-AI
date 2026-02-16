@@ -199,22 +199,18 @@ jobs:
 
 * Images may contain sensitive data: add an explicit UI and README privacy notice: "Images are sent to a third‑party API for processing." Provide a local-only mode or an optional opt-out.
 * Add `.env.local` to `.gitignore`.
-
+<p align="center"> <table> <tr> <td align="center" width="33%"> <img src="https://via.placeholder.com/80/EF4444/FFFFFF?text=🔐" width="50" /> <br/> <b>Data Notice</b> <br/> <sub>Images contain sensitive data. They are sent to a third‑party API for processing.</sub> </td> <td align="center" width="33%"> <img src="https://via.placeholder.com/80/3B82F6/FFFFFF?text=🛡️" width="50" /> <br/> <b>Local Option</b> <br/> <sub>Provide local-only mode or opt-out</sub> </td> <td align="center" width="33%"> <img src="https://via.placeholder.com/80/10B981/FFFFFF?text=🔑" width="50" /> <br/> <b>Env Security</b> <br/> <sub>`.env.local` in `.gitignore` — always!</sub> </td> </tr> </table> </p>
 ---
 
-## Contributors & contact
+🤝 Contributing
+We ❤️ contributions! Here's how to get started:
 
-<p align="center">
-
-<b>Tanmay Kunjir</b><br/> <b>Anshika Mishra</b>
-
-</p>
-
-<p align="center">
-  <a href="https://github.com/10anshika">GitHub</a>
-</p>
-
----
+<table> <tr> <td width="50%"> <h3>🐛 Report Bugs</h3> <p>Open an issue with clear steps to reproduce</p> </td> <td width="50%"> <h3>💡 Suggest Features</h3> <p>Describe the problem you're solving, not just the solution</p> </td> </tr> <tr> <td width="50%"> <h3>📝 Improve Docs</h3> <p>Better explanations, examples, typos</p> </td> <td width="50%"> <h3>🔧 Submit PRs</h3> <p>Check out <code>good-first-issue</code> label</p> </td> </tr> </table>
+bash
+# Fork → Clone → Branch → Commit → Push → PR
+git checkout -b feat/your-amazing-idea
+git commit -m "feat: add something awesome"
+git push origin feat/your-amazing-idea
 
 ## Suggested next steps (for polish)
 
@@ -222,7 +218,7 @@ jobs:
 * Host a small demo (GitHub Pages / Vercel) and link it in the top section.
 * Add screenshots for both **guidance** and **validation** result states.
 * Add a `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` to improve project maturity.
-
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=120&section=footer&text=Samadhan‑AI&fontSize=32&fontAlignY=70&animation=twinkling" width="100%" /> </p><p align="center"> <a href="https://github.com/10anshika/Samadhan-AI"> <img src="https://img.shields.io/badge/📁_Repository-GitHub-181717?style=for-the-badge&logo=github" /> </a> <a href="#"> <img src="https://img.shields.io/badge/🚀_Live_Demo-Coming_Soon-3B82F6?style=for-the-badge" /> </a> </p><p align="center"> <sub>Built with ❤️ by Tanmay Kunjir & Anshika Mishra</sub> <br/> <sub>⭐ Star us on GitHub — it helps others discover the project!</sub> </p>
 ---
 
 ## License
