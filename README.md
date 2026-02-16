@@ -1,4 +1,3 @@
-
 # Samadhan‑AI
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![Build](https://github.com/10anshika/Samadhan-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/10anshika/Samadhan-AI/actions) [![Repo Size](https://img.shields.io/github/repo-size/10anshika/Samadhan-AI)](https://github.com/10anshika/Samadhan-AI)
@@ -9,13 +8,21 @@
 
 A polished React + TypeScript frontend that accepts form images and uses Google Gemini (GenAI) to provide intelligent **field guidance** or **structured validation** of filled forms — built with production-minded reliability and developer hygiene.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61dafb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge" />
+</p>
+
 ---
 
 ## Live preview
 
-![App preview](./assets/screenshot.png)
+<p align="center">
+  <img src="./assets/screenshot.png" alt="Samadhan-AI UI" width="80%" />
+</p>
 
-> Demo: *replace with deployed URL or GitHub Pages link if available*
+<p align="center"><i>Upload → AI Analysis → Structured Output</i></p>
 
 ---
 
@@ -51,24 +58,30 @@ This repository demonstrates full‑stack integration of computer‑vision input
 
 ## Features
 
-* Drag & drop image uploader with preview and client-side validation (file type, max size).
-* Client-side image compression to reduce latency and cost.
-* Two operational modes:
-
-  * **Field guidance** — human-readable prompts to help correct form entries.
-  * **Validation** — machine-friendly JSON with `field -> { value, confidence, suggestion }`.
-* Robust model adapter with safe JSON parsing, zod schema validation (recommended), and retry/backoff.
-* Developer-friendly: `.env.example`, CI workflow, and unit tests for critical logic.
+| Capability      | Description                                        |
+| --------------- | -------------------------------------------------- |
+| Image Upload    | Drag & drop, preview, MIME + size validation       |
+| Compression     | Client-side resizing to reduce latency & cost      |
+| Field Guidance  | Human-readable instructions for correcting entries |
+| Validation Mode | Machine-usable JSON with confidence scores         |
+| Model Safety    | Safe JSON parsing + runtime schema validation      |
+| Dev Hygiene     | Env separation, CI-ready, testable architecture    |
 
 ---
 
 ## Tech stack
 
-* Frontend: React + TypeScript + Vite
-* Model client: `@google/genai` (Gemini) — adapter in `services/geminiService.ts`
-* Runtime validation: `zod` (recommended) or `ajv`
-* Testing: Jest + React Testing Library
-* CI: GitHub Actions
+<p align="center">
+
+| Layer      | Technology                      |
+| ---------- | ------------------------------- |
+| Frontend   | React, TypeScript, Vite         |
+| AI / LLM   | Google Gemini (`@google/genai`) |
+| Validation | zod / AJV (runtime schemas)     |
+| Testing    | Jest, React Testing Library     |
+| CI         | GitHub Actions                  |
+
+</p>
 
 ---
 
@@ -111,15 +124,25 @@ npm run build
 
 ## Architecture overview
 
-```
-Browser UI (ImageUploader) --> compress/validate --> /api/process (optional proxy)
-    --> services/geminiService.ts (adapter to Gemini)
-         --> safeJsonParse -> zod validation -> UI: Guidance | Validation
+```text
+┌──────────────┐     Image (JPG/PNG)     ┌──────────────────────┐
+│   Browser    │ ─────────────────────▶ │   Image Validation   │
+│   (React)    │                         │  + Compression       │
+└──────┬───────┘                         └─────────┬────────────┘
+       │                                             │
+       │                                   Prompt + Image
+       │                                             │
+       ▼                                             ▼
+┌──────────────────┐                     ┌──────────────────────┐
+│  UI State Layer  │ ◀──── Structured ── │   Gemini Adapter     │
+│ (Guidance / Val) │        JSON         │ (safe parse + schema)│
+└──────────────────┘                     └──────────────────────┘
 ```
 
-Notes:
+Design intent:
 
-* Keep `GEMINI_API_KEY` off the client. Use a minimal server or serverless function if you must call Gemini from a frontend flow.
+* Explicit boundaries between UI, preprocessing, and model adapter.
+* No raw model text reaches the UI without schema validation.
 
 ---
 
@@ -184,9 +207,15 @@ jobs:
 
 ## Contributors & contact
 
-Built by **Tanmay Kunjir** and **Anshika Mishra**.
+<p align="center">
 
-GitHub: [https://github.com/10anshika](https://github.com/10anshika)
+<b>Tanmay Kunjir</b><br/> <b>Anshika Mishra</b>
+
+</p>
+
+<p align="center">
+  <a href="https://github.com/10anshika">GitHub</a>
+</p>
 
 ---
 
