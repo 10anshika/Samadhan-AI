@@ -12,12 +12,8 @@
 
 A polished React + TypeScript frontend that accepts form images and uses Google Gemini (GenAI) to provide intelligent **field guidance** or **structured validation** of filled forms — built with production-minded reliability and developer hygiene.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61dafb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge" />
-</p>
 
+<table> <tr> <td width="33%" align="center"> <img src="https://via.placeholder.com/80/3B82F6/FFFFFF?text=1" width="50" style="border-radius: 40px;" /> <br/> <b>Real-World AI Integration</b> <p>Connects image input to a generative model producing structured, validated outputs for downstream automation (data entry, audit, corrections).</p> </td> <td width="33%" align="center"> <img src="https://via.placeholder.com/80/10B981/FFFFFF?text=2" width="50" style="border-radius: 40px;" /> <br/> <b>Production Concerns</b> <p>Shows secret management, runtime schema validation, retries/backoff, file validation, CI/CD, and testable architecture.</p> </td> <td width="33%" align="center"> <img src="https://via.placeholder.com/80/8B5CF6/FFFFFF?text=3" width="50" style="border-radius: 40px;" /> <br/> <b>Recruiter-Ready</b> <p>Clear technical ownership, data flow, failure modes, and developer experience — everything you look for in a portfolio project.</p> </td> </tr> </table>
 ---
 
 ## Live preview
