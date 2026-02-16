@@ -1,3 +1,23 @@
+<h1 align="center">Samadhan-AI</h1>
+
+<p align="center">
+  <b>AI-powered form understanding, guidance & validation from images</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI-Gemini%20LLM-4285F4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
+</p>
+
+<hr/>
+
+
 # Samadhan‑AI
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![Build](https://github.com/10anshika/Samadhan-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/10anshika/Samadhan-AI/actions) [![Repo Size](https://img.shields.io/github/repo-size/10anshika/Samadhan-AI)](https://github.com/10anshika/Samadhan-AI)
