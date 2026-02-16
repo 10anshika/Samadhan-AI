@@ -1,199 +1,139 @@
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Samadhan-AI&fontSize=70&fontAlignY=35&desc=Intelligent%20Bureaucracy%20Navigator&descAlignY=55&animation=fadeIn" width="100%" alt="Samadhan-AI Header"/> <p> <strong>Democratizing access to governance. One query at a time. 🤖⚖️</strong> </p> <p> <a href="#-why-samadhan-ai"><img src="https://img.shields.io/badge/why%20samadhan--ai-8A2BE2?style=for-the-badge" alt="Why Samadhan-AI"/></a> <a href="#-features"><img src="https://img.shields.io/badge/features-FF6B6B?style=for-the-badge" alt="Features"/></a> <a href="#-tech-stack"><img src="https://img.shields.io/badge/tech%20stack-4ECDC4?style=for-the-badge" alt="Tech Stack"/></a> <a href="#-live-demo"><img src="https://img.shields.io/badge/live%20demo-45B7D1?style=for-the-badge" alt="Live Demo"/></a> <a href="#-getting-started"><img src="https://img.shields.io/badge/get%20started-96CEB4?style=for-the-badge" alt="Get Started"/></a> </p> <p> <img src="https://img.shields.io/github/languages/top/10anshika/Samadhan-AI?style=flat-square&logo=typescript&color=3178C6" alt="TypeScript"/> <img src="https://img.shields.io/github/languages/code-size/10anshika/Samadhan-AI?style=flat-square&logo=github" alt="Code Size"/> <img src="https://img.shields.io/badge/Gemini%20API-Powered-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini API"/> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome"/> </p> </div>
-🌟 Why Samadhan-AI?
-Let's face it—dealing with government bureaucracy is hard. Forms are confusing, websites are outdated, and finding the right department feels like a treasure hunt without a map. For millions of citizens, accessing essential services becomes a frustrating ordeal.
+<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=500&color=3B82F6&center=true&vCenter=true&width=600&height=80&lines=Samadhan-AI;⚖️+Intelligent+Bureaucracy+Navigator;🤖+Your+AI+Guide+to+Governance;🇮🇳+Made+for+India" alt="Typing SVG" /> </p><p align="center"> <img src="https://img.shields.io/badge/TypeScript-98.1%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Powered%20by-Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github" /> <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" /> </p><p align="center"> <img src="https://via.placeholder.com/800x400/1E293B/FFFFFF?text=Samadhan-AI+Demo+Preview" alt="Demo Preview" width="80%" /> </p><p align="center"> <i>✨ Ask in Hindi, get answers in English. Ask in English, get procedures in simple steps. ✨</i> </p>
+📋 Table of Contents
+The 30-Second Pitch
 
-Samadhan-AI (meaning "Resolution" in Hindi) was born from a simple yet powerful idea: What if navigating the government was as easy as having a conversation?
+Live Demo
 
-This isn't just another chatbot. It's an intelligent bureaucracy navigator designed to be your personal guide through the maze of administrative procedures. Whether you're applying for a passport, renewing a driver's license, or trying to understand property tax regulations, Samadhan-AI delivers clear, actionable, and personalized guidance in seconds.
+Key Features
 
-For recruiters and contributors: This project showcases the practical application of cutting-edge AI (Gemini) to solve a real-world, large-scale problem. It demonstrates full-stack development proficiency, API integration, and a user-centric design philosophy—all focused on creating social impact through technology.
+Tech Stack
 
-🎯 The Problem We Solve
-Challenge	Samadhan-AI Solution
-Information Overload	Parses complex government jargon into simple, conversational answers.
-Scattered Resources	Centralizes knowledge from multiple departments into one unified interface.
-Unclear Procedures	Provides step-by-step guidance, including documents needed, fees, and timelines.
-Language Barriers	(Planned) Responds in multiple regional languages for greater accessibility.
-Intimidation Factor	Offers a friendly, non-judgmental AI assistant available 24/7.
-✨ Core Features
-<div align="center"> <table> <tr> <td align="center" width="200"> <strong>🗣️ Conversational AI</strong><br/> <sub>Ask naturally, get answers instantly</sub> </td> <td align="center" width="200"> <strong>🧭 Step-by-Step Guides</strong><br/> <sub>Never miss a required document again</sub> </td> <td align="center" width="200"> <strong>🏛️ Department Locator</strong><br/> <sub>Find exactly where to go</sub> </td> </tr> <tr> <td align="center" width="200"> <strong>⚡ Real-Time Responses</strong><br/> <sub>Powered by Gemini's low-latency API</sub> </td> <td align="center" width="200"> <strong>📱 Responsive Design</strong><br/> <sub>Works flawlessly on mobile & desktop</sub> </td> <td align="center" width="200"> <strong>🔒 Secure & Private</strong><br/> <sub>No storage of personal queries</sub> </td> </tr> </table> </div>
-🔍 Example Queries You Can Ask
-"How do I apply for a passport for the first time in Mumbai?"
+Project Structure
 
-"What documents are needed to transfer a vehicle registration in Karnataka?"
+Quick Start
 
-"I lost my ration card. What's the process to get a duplicate in Delhi?"
+Environment Setup
 
-*"What are the income tax slab rates for FY 2024-25?"*
+Roadmap
 
-"How can I check the status of my PAN card application?"
+For Developers & Recruiters
 
-🛠️ Technology Stack
-Samadhan-AI is built with modern, scalable technologies to ensure performance, reliability, and ease of development.
+Contributing
 
+License
 
-
-
-
-Layer	Technology	Why It Was Chosen
-Frontend	React 18 + TypeScript	Type safety, component reusability, and excellent developer experience
-Build Tool	Vite	Lightning-fast HMR and optimized production builds
-AI Engine	Google Gemini API	State-of-the-art reasoning, multilingual capabilities, and cost-effectiveness
-Language	TypeScript (98.1%)	Robust type system preventing runtime errors
-Styling	Modern CSS	Clean, responsive design without unnecessary dependencies
+🎯 The 30-Second Pitch
+<table> <tr> <td width="60%"> <h3>🤷‍♂️ "How do I get a duplicate driver's license?"</h3> <h3>🤷‍♀️ "What's the process for passport renewal?"</h3> <h3>🤷 "Which form do I need for property tax?"</h3> <br/> <p><strong>Samadhan-AI answers all of this in seconds.</strong> No more CTRL+F through 100-page PDFs. No more calling 10 different helplines. Just type, and get your step-by-step guide.</p> </td> <td width="40%" align="center"> <img src="https://via.placeholder.com/300x300/3B82F6/FFFFFF?text=⚡+Instant+Answers" width="200" /> </td> </tr> </table>
 🚀 Live Demo
-Experience Samadhan-AI in action right now!
+<p align="center"> <a href="https://ai.studio/apps/drive/10efTSbEZYxMoKCOK1CplghFa_fiE1vCV" target="_blank"> <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1E3A8A" height="50" /> </a> </p><p align="center"> <table> <tr> <td align="center" width="33%"> <img src="https://via.placeholder.com/100/10B981/FFFFFF?text=✅" width="50" /><br/> <b>No Login Required</b> </td> <td align="center" width="33%"> <img src="https://via.placeholder.com/100/F59E0B/FFFFFF?text=⚡" width="50" /><br/> <b>Works in 2 Seconds</b> </td> <td align="center" width="33%"> <img src="https://via.placeholder.com/100/EF4444/FFFFFF?text=📱" width="50" /><br/> <b>Mobile Friendly</b> </td> </tr> </table> </p>
+✨ Key Features
+<p align="center"> <table> <tr> <td align="center" width="33%"> <img src="https://via.placeholder.com/150/3B82F6/FFFFFF?text=🗣️" width="100" /><br/> <h3>Talk Naturally</h3> <p>Ask in Hinglish, Hindi, or English — the AI understands context, not just keywords.</p> </td> <td align="center" width="33%"> <img src="https://via.placeholder.com/150/10B981/FFFFFF?text=📋" width="100" /><br/> <h3>Actionable Steps</h3> <p>Not just information — actual checklists: documents, fees, office addresses, website links.</p> </td> <td align="center" width="33%"> <img src="https://via.placeholder.com/150/8B5CF6/FFFFFF?text=⚖️" width="100" /><br/> <h3>Always Updated</h3> <p>Powered by Gemini's latest knowledge — no outdated 2019 PDFs.</p> </td> </tr> </table> </p>
+🛠️ Tech Stack
 
-👉 Launch the Live Application
-<p align="center"> <i>No installation required. Just click, type your question, and see the magic happen.</i> </p>
-https://github.com/user-attachments/assets/2d3d8a6f-8c8c-4b0a-9a7e-3f5b8c9a2e1d
-(Replace with actual screen recording link if available)
 
-📦 Getting Started
-Want to run Samadhan-AI locally or contribute? Follow these simple steps.
 
-Prerequisites
-Node.js (v16 or higher)
 
-npm or yarn
-
-Gemini API Key (Get it for free from Google AI Studio)
-
-Step-by-Step Installation
-Clone the repository
-
-bash
-git clone https://github.com/10anshika/Samadhan-AI.git
-cd Samadhan-AI
-Install dependencies
-
-bash
-npm install
-# or
-yarn install
-Configure environment variables
-
-bash
-# Create a .env.local file in the root directory
-echo "GEMINI_API_KEY=your_api_key_here" > .env.local
-Start the development server
-
-bash
-npm run dev
-# or
-yarn dev
-Open your browser and navigate to http://localhost:5173
-
-🧠 How It Works: Under the Hood
-User Input: You type a natural language query into the chat interface (e.g., "How to get a marriage certificate in UP?").
-
-Contextual Processing: The application packages your query with relevant context and sends it securely to the Gemini API endpoint.
-
-AI Reasoning: The Gemini model, fine-tuned for bureaucratic knowledge, analyzes the query. It breaks down the question, identifies the governing bodies involved, and structures a logical response.
-
-Response Generation: Gemini generates a detailed, step-by-step answer that includes:
-
-Prerequisites (eligibility criteria)
-
-Required Documents (checklist format)
-
-Application Process (online/offline steps)
-
-Fees & Timelines
-
-Contact Information (office addresses, websites, helplines)
-
-User-Friendly Display: The response is rendered beautifully in the React frontend, formatted for easy reading and action.
-
-📊 Project Structure
+<p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" /> </p>
+📁 Project Structure
 text
-Samadhan-AI/
-├── public/                 # Static assets
-├── src/
-│   ├── components/         # Reusable UI components
+📦 Samadhan-AI
+├── 📂 src
+│   ├── 📂 components          # Chat UI components
 │   │   ├── ChatInterface.tsx
 │   │   ├── MessageBubble.tsx
-│   │   └── ...
-│   ├── services/           # API integration layer
-│   │   └── geminiService.ts # Handles Gemini API calls
-│   ├── types/              # TypeScript type definitions
+│   │   └── TypingIndicator.tsx
+│   │
+│   ├── 📂 services            # API integration
+│   │   └── geminiService.ts   # Gemini API calls
+│   │
+│   ├── 📂 types               # TypeScript definitions
 │   │   └── types.ts
-│   ├── App.tsx             # Main application component
-│   ├── index.tsx           # Entry point
-│   └── ...
-├── .env.local              # Environment variables (API key)
+│   │
+│   ├── App.tsx                # Main application
+│   └── index.tsx              # Entry point
+│
+├── 📂 public                   # Static assets
+├── .env.local                  # Environment variables
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
-🗺️ Roadmap & Future Vision
-Samadhan-AI is just getting started. Here's what's coming next:
+⚡ Quick Start
+Get up and running in 2 minutes:
 
-🚀 Phase 1: Foundation (✅ Complete)
-Core conversational AI with Gemini
+bash
+# 1. Clone the repository
+git clone https://github.com/10anshika/Samadhan-AI.git
 
-Responsive chat interface
+# 2. Navigate to project directory
+cd Samadhan-AI
 
-Basic query handling
+# 3. Install dependencies
+npm install
 
-🌟 Phase 2: Expansion (🔄 In Progress)
-Multi-language support (Hindi, Tamil, Bengali, Telugu)
+# 4. Add your Gemini API key (see Environment Setup below)
+# 5. Start development server
+npm run dev
+Your app will be running at http://localhost:5173
 
-Document template generator (auto-fill common forms)
+🔑 Environment Setup
+Create a .env.local file in the root directory:
 
-Geolocation integration (find nearest government office on map)
+env
+GEMINI_API_KEY=your_gemini_api_key_here
+Don't have a Gemini API key?
 
-User feedback system (thumbs up/down to improve responses)
+Visit Google AI Studio
 
-💫 Phase 3: Advanced Features (🔮 Planned)
-Voice input/output for illiterate users
+Sign in with your Google account
 
-Case tracking (remember user's progress across sessions)
+Generate a free API key
 
-Integration with government portals (where APIs exist)
+Copy and paste it into .env.local
 
-Mobile app (React Native)
-
+🗺️ Roadmap
+<p align="center"> <table> <tr> <td width="33%" valign="top" bgcolor="#f0f9ff"> <h3 align="center">✅ Phase 1<br /><i>Completed</i></h3> <ul> <li>✓ Core AI conversations with Gemini</li> <li>✓ Responsive chat interface</li> <li>✓ Basic query handling</li> <li>✓ TypeScript implementation</li> </ul> </td> <td width="33%" valign="top" bgcolor="#fffbeb"> <h3 align="center">🔄 Phase 2<br /><i>In Progress</i></h3> <ul> <li>🌐 Multi-language support (Hindi, Tamil, Bengali, Telugu)</li> <li>📄 Document template generator</li> <li>📍 Office locator with maps</li> <li>👍 User feedback system</li> </ul> </td> <td width="33%" valign="top" bgcolor="#fef2f2"> <h3 align="center">🔮 Phase 3<br /><i>Planned</i></h3> <ul> <li>🎤 Voice input/output</li> <li>📱 React Native mobile app</li> <li>🔔 Case tracking</li> <li>🤝 Government portal integration</li> </ul> </td> </tr> </table> </p>
+💼 For Developers & Recruiters
+<table> <tr> <td width="50%"> <h3>🧠 AI Integration Done Right</h3> <p>Not just a wrapper around an API. Samadhan-AI showcases how to structure prompts, handle responses, and create a seamless UX around LLMs.</p> <ul> <li>✅ Proper prompt engineering</li> <li>✅ Error handling & fallbacks</li> <li>✅ Rate limiting considerations</li> </ul> </td> <td width="50%"> <h3>🇮🇳 Real-World Impact</h3> <p>This isn't another todo app. It solves a genuine problem faced by 1.4 billion citizens. Technology with purpose.</p> <ul> <li>✅ Accessibility focus</li> <li>✅ Multi-language ready</li> <li>✅ Mobile-first design</li> </ul> </td> </tr> <tr> <td width="50%"> <h3>⚡ Clean Code Architecture</h3> <p>98% TypeScript. Strong typing, no <code>any</code> types, well-organized components.</p> <ul> <li>✅ Separation of concerns</li> <li>✅ Reusable components</li> <li>✅ Production-ready structure</li> </ul> </td> <td width="50%"> <h3>🚀 Modern Development</h3> <p>Built with 2025 best practices in mind.</p> <ul> <li>✅ Vite for lightning-fast builds</li> <li>✅ React 18 with hooks</li> <li>✅ Environment configuration</li> </ul> </td> </tr> </table>
 🤝 Contributing
-We believe that making government accessible is a mission that requires collective effort. Contributions of all kinds are welcome!
+We welcome contributions from everyone! Here's how you can help:
 
-Ways to Contribute
+🌟 Ways to Contribute
 🐛 Report bugs by opening an issue
 
-💡 Suggest features or improvements
+💡 Suggest features via issues
+
+🌐 Add translations for regional languages
 
 📝 Improve documentation
 
-🌐 Add translations
+🔧 Submit PRs for open issues
 
-🔧 Submit pull requests for any open issue
+🚀 First Time Contributing?
+bash
+# Fork the repository
+# Then clone your fork
+git clone https://github.com/your-username/Samadhan-AI.git
 
-Quick Start for Contributors
-Fork the repository
+# Create a branch
+git checkout -b feature/your-feature-name
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+# Make your changes
+# Commit and push
+git commit -m "Add: your feature description"
+git push origin feature/your-feature-name
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+# Open a Pull Request
+Looking for good first issues? Check out issues labeled "good first issue".
 
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details. (You need to add this file)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-👩‍💻 About the Creator
-Anshika is a passionate developer dedicated to building technology that makes a difference. Samadhan-AI represents a vision where AI serves the public good—simplifying complex systems and empowering citizens.
+🙏 Acknowledgments
+Google for the Gemini API
 
-GitHub: @10anshika
+The open-source community for amazing tools
 
-Project Repository: Samadhan-AI on GitHub
+Every citizen who struggles with bureaucracy — this is for you
 
-📣 Acknowledgments
-Google for the powerful and accessible Gemini API
-
-The open-source community for the incredible tools that make projects like this possible
-
-Every citizen who struggles with bureaucracy—this is for you
-
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Let's%20make%20governance%20human-friendly.&fontSize=24&fontAlignY=70&animation=twinkling" width="100%" alt="Footer"/> <p> <strong> <a href="#-why-samadhan-ai">Back to Top ↑</a> </strong> </p> <p> ⭐ If Samadhan-AI inspires you, please consider starring the repository on GitHub! ⭐ </p> </div>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=100&section=footer&text=Samadhan+—+Resolution+for+Everyone&fontSize=24&fontAlignY=70" width="100%" /> </p><p align="center"> <a href="https://github.com/10anshika/Samadhan-AI"> <img src="https://img.shields.io/badge/📁_Repository-GitHub-181717?style=for-the-badge&logo=github" /> </a> <a href="https://ai.studio/apps/drive/10efTSbEZYxMoKCOK1CplghFa_fiE1vCV"> <img src="https://img.shields.io/badge/🚀_Live_Demo-Try_Now-3B82F6?style=for-the-badge" /> </a> </p><p align="center"> <sub>Built with ❤️ in India for every citizen</sub> <br/> <sub>⭐ Star this repository if it helps you! ⭐</sub> </p>
